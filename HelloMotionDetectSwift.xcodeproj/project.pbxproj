@@ -25,7 +25,7 @@
 		613CCDB41B97942700084D85 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 613CCDB31B97942700084D85 /* libstdc++.6.0.9.dylib */; };
 		613CCDDA1B989C5300084D85 /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 613CCDD91B989C5300084D85 /* CaptureSessionManager.m */; };
 		613CCDDC1B98C0B100084D85 /* aumentia®.png in Resources */ = {isa = PBXBuildFile; fileRef = 613CCDDB1B98C0B100084D85 /* aumentia®.png */; };
-		613CCDDF1B98C2FC00084D85 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 613CCDDD1B98C2FC00084D85 /* Launch Screen.xib */; };
+		82DB5C7B1B98CDEB00F195A4 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82DB5C791B98CDEB00F195A4 /* Launch Screen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +51,7 @@
 		613CCDD81B989C5300084D85 /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
 		613CCDD91B989C5300084D85 /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
 		613CCDDB1B98C0B100084D85 /* aumentia®.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aumentia®.png"; sourceTree = "<group>"; };
-		613CCDDE1B98C2FC00084D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "../../HelloMotionDetect_iOS/HelloMotionDetect_iOS/Base.lproj/Launch Screen.xib"; sourceTree = "<group>"; };
+		82DB5C7A1B98CDEB00F195A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Base.lproj/Launch Screen.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +100,8 @@
 				613CCDD91B989C5300084D85 /* CaptureSessionManager.m */,
 				613CCD731B9787A500084D85 /* AppDelegate.swift */,
 				613CCD751B9787A500084D85 /* ViewController.swift */,
+				82DB5C791B98CDEB00F195A4 /* Launch Screen.xib */,
 				613CCD771B9787A500084D85 /* Main.storyboard */,
-				613CCDDD1B98C2FC00084D85 /* Launch Screen.xib */,
 				613CCD7A1B9787A500084D85 /* Images.xcassets */,
 				613CCD931B97880900084D85 /* SDK */,
 				613CCD711B9787A500084D85 /* Supporting Files */,
@@ -195,8 +195,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				613CCDDF1B98C2FC00084D85 /* Launch Screen.xib in Resources */,
 				613CCD791B9787A500084D85 /* Main.storyboard in Resources */,
+				82DB5C7B1B98CDEB00F195A4 /* Launch Screen.xib in Resources */,
 				613CCDDC1B98C0B100084D85 /* aumentia®.png in Resources */,
 				613CCD7B1B9787A500084D85 /* Images.xcassets in Resources */,
 			);
@@ -226,10 +226,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		613CCDDD1B98C2FC00084D85 /* Launch Screen.xib */ = {
+		82DB5C791B98CDEB00F195A4 /* Launch Screen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				613CCDDE1B98C2FC00084D85 /* Base */,
+				82DB5C7A1B98CDEB00F195A4 /* Base */,
 			);
 			name = "Launch Screen.xib";
 			sourceTree = "<group>";
