@@ -35,8 +35,6 @@
 		613CCD751B9787A500084D85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		613CCD781B9787A500084D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		613CCD7A1B9787A500084D85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		613CCD881B9787A500084D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		613CCD891B9787A500084D85 /* HelloMotionDetectSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMotionDetectSwiftTests.swift; sourceTree = "<group>"; };
 		613CCD941B97880900084D85 /* VS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VS.framework; sourceTree = "<group>"; };
 		613CCD981B978A2900084D85 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		613CCD9A1B978A2E00084D85 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
@@ -83,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				613CCD701B9787A500084D85 /* HelloMotionDetectSwift */,
-				613CCD861B9787A500084D85 /* HelloMotionDetectSwiftTests */,
 				613CCD6F1B9787A500084D85 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,23 +126,6 @@
 				613CCD9A1B978A2E00084D85 /* CoreMotion.framework */,
 				613CCD981B978A2900084D85 /* AVFoundation.framework */,
 				613CCD721B9787A500084D85 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		613CCD861B9787A500084D85 /* HelloMotionDetectSwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				613CCD891B9787A500084D85 /* HelloMotionDetectSwiftTests.swift */,
-				613CCD871B9787A500084D85 /* Supporting Files */,
-			);
-			path = HelloMotionDetectSwiftTests;
-			sourceTree = "<group>";
-		};
-		613CCD871B9787A500084D85 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				613CCD881B9787A500084D85 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -412,6 +392,7 @@
 				613CCD8F1B9787A500084D85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
