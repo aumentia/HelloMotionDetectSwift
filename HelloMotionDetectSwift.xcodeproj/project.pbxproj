@@ -332,7 +332,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				COMPRESS_PNG_FILES = NO;
 				DEFINES_MODULE = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/HelloMotionDetectSwift/SDK/VS.framework\"";
+				FRAMEWORK_SEARCH_PATHS = HelloMotionDetectSwift/SDK;
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				INFOPLIST_FILE = HelloMotionDetectSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
@@ -365,7 +365,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				COMPRESS_PNG_FILES = NO;
 				DEFINES_MODULE = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/HelloMotionDetectSwift/SDK/VS.framework\"";
+				FRAMEWORK_SEARCH_PATHS = HelloMotionDetectSwift/SDK;
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				INFOPLIST_FILE = HelloMotionDetectSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
