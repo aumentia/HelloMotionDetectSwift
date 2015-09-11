@@ -16,6 +16,8 @@ Visual Search Framework
 * Match images and QR codes simultaneously
 * **arm64 support**
 * **[Swift support](https://github.com/aumentia/HelloVisualSearch_iOS/wiki/Connect-to-SWIFT)**
+* **BITCODE enabled**
+* Compatible with **XCode 7** and **iOS9**
 
 **********************
     NEW: Motion Recognition
