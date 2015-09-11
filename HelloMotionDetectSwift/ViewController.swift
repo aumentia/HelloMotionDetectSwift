@@ -117,7 +117,7 @@ class ViewController: UIViewController, vsMotionProtocol, CameraCaptureDelegate
         // Set video streaming quality
         _captureManager.captureSession.sessionPreset = AVCaptureSessionPresetPhoto;
         
-        _captureManager.outPutSetting = NSNumber(integer: kCVPixelFormatType_32BGRA);
+        _captureManager.outPutSetting = NSNumber(unsignedInt: kCVPixelFormatType_32BGRA);
         
         _captureManager.addVideoInput(AVCaptureDevicePosition.Front);
         _captureManager.addVideoOutput();
@@ -174,14 +174,14 @@ class ViewController: UIViewController, vsMotionProtocol, CameraCaptureDelegate
     
     func buttonClicked(buttonId: NSNumber!)
     {
-        println("Clicked button \(buttonId.intValue)");
+        print("Clicked button \(buttonId.intValue)");
     }
     
     func buttonsActive(isActive: Bool)
     {
         if ( !isActive )
         {
-            println("Buttons disabled");
+            print("Buttons disabled");
         }
     }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		612C79811BA2D708002ABF67 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 612C79801BA2D708002ABF67 /* libstdc++.6.0.9.tbd */; };
+		612C79831BA2D70E002ABF67 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 612C79821BA2D70E002ABF67 /* libiconv.tbd */; };
 		613CCD741B9787A500084D85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613CCD731B9787A500084D85 /* AppDelegate.swift */; };
 		613CCD761B9787A500084D85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613CCD751B9787A500084D85 /* ViewController.swift */; };
 		613CCD791B9787A500084D85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613CCD771B9787A500084D85 /* Main.storyboard */; };
@@ -17,18 +19,18 @@
 		613CCD9D1B978A3200084D85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613CCD9C1B978A3200084D85 /* Foundation.framework */; };
 		613CCD9F1B978A3D00084D85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613CCD9E1B978A3D00084D85 /* UIKit.framework */; };
 		613CCDA11B978A4200084D85 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613CCDA01B978A4200084D85 /* Accelerate.framework */; };
-		613CCDA31B978AAF00084D85 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 613CCDA21B978AAF00084D85 /* libiconv.dylib */; };
 		613CCDA51B978AB700084D85 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613CCDA41B978AB700084D85 /* QuartzCore.framework */; };
 		613CCDA71B978ABD00084D85 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613CCDA61B978ABD00084D85 /* CoreMedia.framework */; };
 		613CCDA91B978AC300084D85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613CCDA81B978AC300084D85 /* CoreGraphics.framework */; };
 		613CCDAB1B978AE200084D85 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613CCDAA1B978AE200084D85 /* CoreVideo.framework */; };
-		613CCDB41B97942700084D85 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 613CCDB31B97942700084D85 /* libstdc++.6.0.9.dylib */; };
 		613CCDDA1B989C5300084D85 /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 613CCDD91B989C5300084D85 /* CaptureSessionManager.m */; };
 		613CCDDC1B98C0B100084D85 /* aumentia®.png in Resources */ = {isa = PBXBuildFile; fileRef = 613CCDDB1B98C0B100084D85 /* aumentia®.png */; };
 		82DB5C7B1B98CDEB00F195A4 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82DB5C791B98CDEB00F195A4 /* Launch Screen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		612C79801BA2D708002ABF67 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		612C79821BA2D70E002ABF67 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		613CCD6E1B9787A500084D85 /* HelloMotionDetectSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMotionDetectSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		613CCD721B9787A500084D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		613CCD731B9787A500084D85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,13 +43,11 @@
 		613CCD9C1B978A3200084D85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		613CCD9E1B978A3D00084D85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		613CCDA01B978A4200084D85 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
-		613CCDA21B978AAF00084D85 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		613CCDA41B978AB700084D85 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		613CCDA61B978ABD00084D85 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		613CCDA81B978AC300084D85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		613CCDAA1B978AE200084D85 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		613CCDAC1B978C1B00084D85 /* HelloMotionDetectSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloMotionDetectSwift-Bridging-Header.h"; sourceTree = "<group>"; };
-		613CCDB31B97942700084D85 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 		613CCDD81B989C5300084D85 /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
 		613CCDD91B989C5300084D85 /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
 		613CCDDB1B98C0B100084D85 /* aumentia®.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aumentia®.png"; sourceTree = "<group>"; };
@@ -59,12 +59,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				613CCDB41B97942700084D85 /* libstdc++.6.0.9.dylib in Frameworks */,
+				612C79831BA2D70E002ABF67 /* libiconv.tbd in Frameworks */,
+				612C79811BA2D708002ABF67 /* libstdc++.6.0.9.tbd in Frameworks */,
 				613CCDAB1B978AE200084D85 /* CoreVideo.framework in Frameworks */,
 				613CCDA91B978AC300084D85 /* CoreGraphics.framework in Frameworks */,
 				613CCDA71B978ABD00084D85 /* CoreMedia.framework in Frameworks */,
 				613CCDA51B978AB700084D85 /* QuartzCore.framework in Frameworks */,
-				613CCDA31B978AAF00084D85 /* libiconv.dylib in Frameworks */,
 				613CCDA11B978A4200084D85 /* Accelerate.framework in Frameworks */,
 				613CCD9F1B978A3D00084D85 /* UIKit.framework in Frameworks */,
 				613CCD9D1B978A3200084D85 /* Foundation.framework in Frameworks */,
@@ -80,6 +80,8 @@
 		613CCD651B9787A500084D85 = {
 			isa = PBXGroup;
 			children = (
+				612C79821BA2D70E002ABF67 /* libiconv.tbd */,
+				612C79801BA2D708002ABF67 /* libstdc++.6.0.9.tbd */,
 				613CCD701B9787A500084D85 /* HelloMotionDetectSwift */,
 				613CCD6F1B9787A500084D85 /* Products */,
 			);
@@ -114,8 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				613CCDDB1B98C0B100084D85 /* aumentia®.png */,
-				613CCDB31B97942700084D85 /* libstdc++.6.0.9.dylib */,
-				613CCDA21B978AAF00084D85 /* libiconv.dylib */,
 				613CCDAA1B978AE200084D85 /* CoreVideo.framework */,
 				613CCDA81B978AC300084D85 /* CoreGraphics.framework */,
 				613CCDA61B978ABD00084D85 /* CoreMedia.framework */,
@@ -164,7 +164,8 @@
 		613CCD661B9787A500084D85 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Aumentia Technologies SL";
 				TargetAttributes = {
 					613CCD6D1B9787A500084D85 = {
@@ -258,6 +259,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -330,17 +332,22 @@
 				CLANG_ENABLE_MODULES = YES;
 				COMPRESS_PNG_FILES = NO;
 				DEFINES_MODULE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/HelloMotionDetectSwift/SDK",
-				);
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				INFOPLIST_FILE = HelloMotionDetectSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LIBTOOLFLAGS = "-mthumb -lstdc++ -lz -lm -mfpu=neon -mtune=cortex-a8";
+				OTHER_LDFLAGS = (
+					"-mthumb",
+					"-lstdc++",
+					"-lz",
+					"-lm",
+					"-mfpu=neon",
+					"-mtune=cortex-a8",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aumentia.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "HelloMotionDetectSwift/HelloMotionDetectSwift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -357,17 +364,22 @@
 				CLANG_ENABLE_MODULES = YES;
 				COMPRESS_PNG_FILES = NO;
 				DEFINES_MODULE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/HelloMotionDetectSwift/SDK",
-				);
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				INFOPLIST_FILE = HelloMotionDetectSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LIBTOOLFLAGS = "-mthumb -lstdc++ -lz -lm -mfpu=neon -mtune=cortex-a8";
+				OTHER_LDFLAGS = (
+					"-mthumb",
+					"-lstdc++",
+					"-lz",
+					"-lm",
+					"-mfpu=neon",
+					"-mtune=cortex-a8",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aumentia.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "HelloMotionDetectSwift/HelloMotionDetectSwift-Bridging-Header.h";
 			};
