@@ -13,7 +13,6 @@
 		613CCD761B9787A500084D85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613CCD751B9787A500084D85 /* ViewController.swift */; };
 		613CCD791B9787A500084D85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613CCD771B9787A500084D85 /* Main.storyboard */; };
 		613CCD7B1B9787A500084D85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613CCD7A1B9787A500084D85 /* Images.xcassets */; };
-		613CCD951B97880900084D85 /* VS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613CCD941B97880900084D85 /* VS.framework */; };
 		613CCD991B978A2900084D85 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613CCD981B978A2900084D85 /* AVFoundation.framework */; };
 		613CCD9B1B978A2E00084D85 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613CCD9A1B978A2E00084D85 /* CoreMotion.framework */; };
 		613CCD9D1B978A3200084D85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613CCD9C1B978A3200084D85 /* Foundation.framework */; };
@@ -25,6 +24,7 @@
 		613CCDAB1B978AE200084D85 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613CCDAA1B978AE200084D85 /* CoreVideo.framework */; };
 		613CCDDA1B989C5300084D85 /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 613CCDD91B989C5300084D85 /* CaptureSessionManager.m */; };
 		613CCDDC1B98C0B100084D85 /* aumentia®.png in Resources */ = {isa = PBXBuildFile; fileRef = 613CCDDB1B98C0B100084D85 /* aumentia®.png */; };
+		61E113651BAC320900919A4B /* VS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E113641BAC320900919A4B /* VS.framework */; };
 		82DB5C7B1B98CDEB00F195A4 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82DB5C791B98CDEB00F195A4 /* Launch Screen.xib */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,6 @@
 		613CCD751B9787A500084D85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		613CCD781B9787A500084D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		613CCD7A1B9787A500084D85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		613CCD941B97880900084D85 /* VS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VS.framework; sourceTree = "<group>"; };
 		613CCD981B978A2900084D85 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		613CCD9A1B978A2E00084D85 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		613CCD9C1B978A3200084D85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,6 +50,7 @@
 		613CCDD81B989C5300084D85 /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
 		613CCDD91B989C5300084D85 /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
 		613CCDDB1B98C0B100084D85 /* aumentia®.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aumentia®.png"; sourceTree = "<group>"; };
+		61E113641BAC320900919A4B /* VS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VS.framework; sourceTree = "<group>"; };
 		82DB5C7A1B98CDEB00F195A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Base.lproj/Launch Screen.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,13 +64,13 @@
 				613CCDAB1B978AE200084D85 /* CoreVideo.framework in Frameworks */,
 				613CCDA91B978AC300084D85 /* CoreGraphics.framework in Frameworks */,
 				613CCDA71B978ABD00084D85 /* CoreMedia.framework in Frameworks */,
+				61E113651BAC320900919A4B /* VS.framework in Frameworks */,
 				613CCDA51B978AB700084D85 /* QuartzCore.framework in Frameworks */,
 				613CCDA11B978A4200084D85 /* Accelerate.framework in Frameworks */,
 				613CCD9F1B978A3D00084D85 /* UIKit.framework in Frameworks */,
 				613CCD9D1B978A3200084D85 /* Foundation.framework in Frameworks */,
 				613CCD9B1B978A2E00084D85 /* CoreMotion.framework in Frameworks */,
 				613CCD991B978A2900084D85 /* AVFoundation.framework in Frameworks */,
-				613CCD951B97880900084D85 /* VS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +133,7 @@
 		613CCD931B97880900084D85 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
-				613CCD941B97880900084D85 /* VS.framework */,
+				61E113641BAC320900919A4B /* VS.framework */,
 			);
 			path = SDK;
 			sourceTree = "<group>";
@@ -165,11 +165,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Aumentia Technologies SL";
 				TargetAttributes = {
 					613CCD6D1B9787A500084D85 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = M85CZU9JKA;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -251,8 +253,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -297,8 +301,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -317,6 +323,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -332,6 +339,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				COMPRESS_PNG_FILES = NO;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M85CZU9JKA;
 				FRAMEWORK_SEARCH_PATHS = HelloMotionDetectSwift/SDK;
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				INFOPLIST_FILE = HelloMotionDetectSwift/Info.plist;
@@ -352,6 +360,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "HelloMotionDetectSwift/HelloMotionDetectSwift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -365,6 +374,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				COMPRESS_PNG_FILES = NO;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M85CZU9JKA;
 				FRAMEWORK_SEARCH_PATHS = HelloMotionDetectSwift/SDK;
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				INFOPLIST_FILE = HelloMotionDetectSwift/Info.plist;
@@ -384,6 +394,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aumentia.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "HelloMotionDetectSwift/HelloMotionDetectSwift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
